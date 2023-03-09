@@ -1,4 +1,4 @@
-# Yii _____
+# Yii OAuth Module
 
 The package ...
 

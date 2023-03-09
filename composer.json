@@ -1,16 +1,19 @@
 {
-    "name": "dmstr/_____",
+    "name": "dmstr/yii2-oauth-module",
     "type": "library",
-    "description": "_____",
+    "description": "Yii2 OAuth2 Module",
     "keywords": [
-        "_____"
+        "yii2",
+        "oauth",
+        "oauth2"
     ],
     "homepage": "https://www.dmstr.io/",
     "license": "BSD-3-Clause",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.3"
+        "php": "^7.4",
+        "ext-json": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
@@ -18,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "dmstr\\_____\\": "src"
+            "dmstr\\oauth\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "dmstr\\_____\\tests\\": "tests"
+            "dmstr\\oauth\\tests\\": "tests"
         }
     },
     "extra": {

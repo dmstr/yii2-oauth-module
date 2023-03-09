@@ -1,4 +1,4 @@
-Copyright © 2008 by diemeisterei GmbH (http://www.diemeisterei.de)
+Copyright © 2023 by diemeisterei GmbH (http://www.diemeisterei.de)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
