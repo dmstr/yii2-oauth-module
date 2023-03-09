@@ -36,5 +36,8 @@
         "allow-plugins": {
             "yiisoft/yii2-composer": true
         }
+    },
+    "suggest": {
+        "bizley/jwt": "JWT tokens for authentication"
     }
 }

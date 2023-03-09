@@ -1,7 +1,7 @@
 <?php
 /**
  * @link http://www.diemeisterei.de/
- * @copyright Copyright (c) 2021 diemeisterei GmbH, Stuttgart
+ * @copyright Copyright (c) 2023 diemeisterei GmbH, Stuttgart
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -15,6 +15,7 @@ use schmunk42\giiant\generators\crud\callbacks\base\Callback;
 use schmunk42\giiant\generators\crud\providers\core\CallbackProvider;
 use schmunk42\giiant\generators\crud\providers\core\OptsProvider;
 
+// levels of directory nesting may vary
 $config = require dirname(__DIR__, 7) . '/config/main.php';
 
 \Yii::$container->set(
@@ -104,7 +105,7 @@ $config['controllerMap']['oauth-batch'] = [
     'useTimestampBehavior' => false,
     'useBlameableBehavior' => false,
     'singularEntities' => false,
-    'tablePrefix' => 'app_oauth_',
+    'tablePrefix' => 'app_oauth_', // You may need to change app_ to your prefix
     'crudMessageCategory' => 'oauth',
     'modelMessageCategory' => 'oauth',
     'tables' => [

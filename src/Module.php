@@ -32,7 +32,7 @@ class Module extends \yii\base\Module
      *
      * @var string
      */
-    public string $tokenEncryptionKey;
+    public string $tokenEncryptionKey = '';
 
     /**
      * Identifier attribute of the user model which will be eventually added to tokens
