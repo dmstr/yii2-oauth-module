@@ -9,35 +9,32 @@
     ],
     "homepage": "https://www.dmstr.io/",
     "license": "BSD-3-Clause",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Elias Luhr",
+            "email": "e.luhr@herzogkommunikation.de"
+        }
+    ],
     "require": {
-        "php": "^7.4",
-        "ext-json": "*"
+        "2amigos/yii2-usuario": "^1.5",
+        "dmstr/yii2-bootstrap": "^0.2.2",
+        "dmstr/yii2-web": "^1.1",
+        "guzzlehttp/guzzle": "^7.5",
+        "league/oauth2-server": "^8.4",
+        "yiisoft/yii2": "^2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0",
-        "phan/phan": "^2.4"
+        "schmunk42/yii2-giiant": "^0.13.0"
     },
     "autoload": {
         "psr-4": {
             "dmstr\\oauth\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "dmstr\\oauth\\tests\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
-    "scripts": {
-        "phan": "phan --progress-bar -o analysis.txt"
-    },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
     }
 }

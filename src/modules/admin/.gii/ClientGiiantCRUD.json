@@ -1,0 +1,69 @@
+{
+    "modelclass": {
+        "value": "project\\modules\\oauth\\modules\\admin\\models\\Client",
+        "name": "modelClass"
+    },
+    "searchmodelclass": {
+        "value": "project\\modules\\oauth\\modules\\admin\\models\\search\\Client",
+        "name": "searchModelClass"
+    },
+    "controllerclass": {
+        "value": "project\\modules\\oauth\\modules\\admin\\controllers\\ClientController",
+        "name": "controllerClass"
+    },
+    "basecontrollerclass": {
+        "value": "yii\\web\\Controller",
+        "name": "baseControllerClass"
+    },
+    "viewpath": {
+        "value": "@project\/modules\/oauth\/modules\/admin\/views",
+        "name": "viewPath"
+    },
+    "pathprefix": {
+        "value": "\/oauth\/admin\/",
+        "name": "pathPrefix"
+    },
+    "enablei18n": {
+        "value": true,
+        "name": "enableI18N"
+    },
+    "singularentities": {
+        "value": false,
+        "name": "singularEntities"
+    },
+    "indexwidgettype": {
+        "value": "grid",
+        "name": "indexWidgetType"
+    },
+    "formlayout": {
+        "value": "horizontal",
+        "name": "formLayout"
+    },
+    "actionbuttonclass": {
+        "value": "yii\\grid\\ActionColumn",
+        "name": "actionButtonClass"
+    },
+    "providerlist": {
+        "value": {
+            "0": "schmunk42\\giiant\\generators\\crud\\providers\\core\\CallbackProvider",
+            "1": "schmunk42\\giiant\\generators\\crud\\providers\\core\\OptsProvider",
+            "2": "project\\modules\\crud\\providers\\RelationProvider",
+            "354": "schmunk42\\giiant\\generators\\crud\\providers\\core\\CallbackProvider",
+            "356": "schmunk42\\giiant\\generators\\crud\\providers\\core\\OptsProvider",
+            "357": "schmunk42\\giiant\\generators\\crud\\providers\\core\\RelationProvider"
+        },
+        "name": "providerList"
+    },
+    "template": {
+        "value": "default",
+        "name": "template"
+    },
+    "accessfilter": {
+        "value": false,
+        "name": "accessFilter"
+    },
+    "modelmessagecategory": {
+        "value": "oauth",
+        "name": "modelMessageCategory"
+    }
+}
