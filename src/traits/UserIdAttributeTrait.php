@@ -9,7 +9,7 @@ trait UserIdAttributeTrait
      *
      * @var string
      */
-    protected string $_userIdAttribute;
+    protected string $_userIdAttribute = 'id';
 
     /**
      * @return string
