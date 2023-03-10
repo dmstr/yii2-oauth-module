@@ -21,7 +21,7 @@ class Module extends \yii\base\Module
     public string $accessTokenIssuer;
 
     /**
-     * Path to private key file. Must start with file://
+     * Path to private key file
      *
      * @var string
      */

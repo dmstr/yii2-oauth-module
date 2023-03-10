@@ -34,7 +34,7 @@ return [
     'modules' => [
         'oauth' => [
             'class' => OAuthModule::class,
-            'tokenPrivateKey' => getenv('JWT_PRIVATE_KEY_FILE'), // Path to private key file. Must start with file://
+            'tokenPrivateKey' => getenv('JWT_PRIVATE_KEY_FILE'), // Path to private key file
             'tokenEncryptionKey' => getenv('JWT_PRIVATE_KEY_PASSPHRASE'), // optional. Only needed if you have a passphrase for your private key
             'accessTokenIssuer' => getenv('JWT_ISS'), // Issuer of the access token.
             'userIdAttribute' => 'id', // The attribute of the user model that will be added to the access token as the `sub` claim.
