@@ -106,7 +106,7 @@ add a user id, the client will be able to access the api, but not log in. The us
 To get a new access token, you can send a post request the following endpoint:
 
 ```bash
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "grant_type=client_credentials&client_id=<your-client-id>&client_secret=<your-client-secret>" <<your-base-url>/oauth/token
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "grant_type=client_credentials&client_id=<your-client-id>&client_secret=<your-client-secret>" <your-base-url>/oauth/token
 ```
 
 This will return all [required information](https://www.oauth.com/oauth2-servers/access-tokens/access-token-response/) to authenticate your requests.
