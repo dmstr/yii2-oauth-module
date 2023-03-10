@@ -77,6 +77,12 @@ And this to your console application configuration:
 ]
 ```
 
+or run
+
+```bash
+yii migrate/up --migrationPath=@vendor/dmstr/yii2-oauth-module/src/migrations
+```
+
 ## General usage
 
 First you need to generate a public and private key pair. You can use the following command to generate a key pair:
