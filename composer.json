@@ -19,7 +19,7 @@
         "2amigos/yii2-usuario": "^1.5",
         "dmstr/yii2-bootstrap": "^0.2.2",
         "dmstr/yii2-web": "^1.1",
-        "guzzlehttp/psr7": "^2.4",
+        "guzzlehttp/psr7": "^1.9 || ^2.4",
         "league/oauth2-server": "^8.4",
         "yiisoft/yii2": "^2.0"
     },
